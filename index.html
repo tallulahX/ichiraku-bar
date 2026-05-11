@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ichiraku Bar | Menú Ninja</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="page">
+        <header class="hero">
+            <h1><span>Ichiraku</span> Bar</h1>
+            <nav class="nav-pills" aria-label="Secciones del menú">
+                <a href="#sin-alcohol">Jutsus Elementales</a>
+                <a href="#con-alcohol">Jutsus Prohibidos</a>
+            </nav>
+        </header>
+
+        <section class="section" id="sin-alcohol">
+            <div class="section-header">
+                <div>
+                    <div class="section-kicker">Sin alcohol</div>
+                    <h2>Jutsus Elementales</h2>
+                </div>
+                <p class="section-note">Bebidas legendarias para activar el chakra sin cruzar la línea prohibida.</p>
+            </div>
+
+            <div class="grid">
+                <article class="card" style="--accent:#ff6a21" data-symbol="九">
+                    <div>
+                        <div class="card-top">
+                            <div>
+                                <div class="meta">Chakra Bestia</div>
+                                <h3 class="drink-name">Kurama</h3>
+                            </div>
+                            <div class="drink-icon kurama-icon">
+                                <img src="img/kurama.png" alt="Kurama Eye" class="kurama-image" />
+                            </div>
+                        </div>
+                        <p class="quote">Energía naranja de nueve colas en modo fiesta.</p>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">Granadina</span>
+                        <span class="tag">Ginger Ale</span>
+                    </div>
+                </article>
+
+                <article class="card amaterasu-card" style="--accent:#0f0f12; --accent-glow:#ff2438;" data-symbol="火">
+                    <div>
+                        <div class="card-top">
+                            <div>
+                                <div class="meta">Llama Negra</div>
+                                <h3 class="drink-name">Amaterasu</h3>
+                            </div>
+                            <div class="drink-icon amaterasu-icon">
+                                <img src="img/Amaterasu.png" alt="Amaterasu Flame" class="amaterasu-image" />
+                            </div>
+                        </div>
+                        <p class="quote">Fuego Uchiha oscuro, intenso y dulce.</p>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">Granadina</span>
+                        <span class="tag">Cola</span>
+                    </div>
+                </article>
+
+                <article class="card" style="--accent:#25c8ff" data-symbol="螺">
+                    <div>
+                        <div class="card-top">
+                            <div>
+                                <div class="meta">Chakra Giratorio</div>
+                                <h3 class="drink-name">Rasengan</h3>
+                            </div>
+                            <div class="drink-icon rasengan-icon">
+                                <img src="img/rasengan.gif" alt="Rasengan" class="rasengan-image" />
+                            </div>
+                        </div>
+                        <p class="quote">Una esfera azul lista para impactar.</p>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">Blue Curaçao</span>
+                        <span class="tag">Sprite</span>
+                    </div>
+                </article>
+
+                <article class="card" style="--accent:#f7f1dc" data-symbol="白">
+                    <div>
+                        <div class="card-top">
+                            <div>
+                                <div class="meta">Chakra Puro</div>
+                                <h3 class="drink-name">Byakugan</h3>
+                            </div>
+                            <div class="drink-icon"><div class="byakugan-eye"></div></div>
+                        </div>
+                        <p class="quote">Suave, limpio y preciso como el clan Hyuga.</p>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">Piña</span>
+                        <span class="tag">Crema de Coco</span>
+                    </div>
+                </article>
+
+                <article class="card" style="--accent:#b78cff" data-symbol="輪">
+                    <div>
+                        <div class="card-top">
+                            <div>
+                                <div class="meta">Dojutsu Legendario</div>
+                                <h3 class="drink-name">Rinnegan</h3>
+                            </div>
+                            <div class="drink-icon"><div class="rings rinnegan-rings"></div></div>
+                        </div>
+                        <p class="quote">Círculos de poder en una técnica violeta.</p>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">Blue Curaçao</span>
+                        <span class="tag">Ginger Ale</span>
+                    </div>
+                </article>
+
+                <article class="card softdrinks-card" style="--accent:#7fd7ff" data-symbol="飲">
+                    <div>
+                        <div class="card-top">
+                            <div>
+                                <div class="meta">Barra Ninja</div>
+                                <h3 class="drink-name">Otras Bebidas</h3>
+                            </div>
+
+                            <div class="drink-icon softdrinks-icon">
+                                <div class="softdrink-cup"></div>
+                            </div>
+                        </div>
+
+                        <p class="quote">
+                            Opciones clásicas disponibles para acompañar cualquier jutsu.
+                        </p>
+                    </div>
+
+                    <div class="tags">
+                        <span class="tag">Agua</span>
+                        <span class="tag">Gaseosas</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="con-alcohol">
+            <div class="section-header">
+                <div>
+                    <div class="section-kicker">Con alcohol</div>
+                    <h2>Jutsus Prohibidos</h2>
+                </div>
+                <p class="section-note">Sólo para adultos. Técnicas de alto nivel servidas por el Ichiraku Bar.</p>
+            </div>
+
+            <div class="grid">
+                <article class="card" style="--accent:#ff173d" data-symbol="写">
+                    <div>
+                        <div class="card-top">
+                            <div>
+                                <div class="meta">Ojo Uchiha</div>
+                                <h3 class="drink-name">Sharingan</h3>
+                                <p class="subtitle">Daiquirí Fresa</p>
+                            </div>
+                            <div class="drink-icon sharingan-icon">
+                                <img src="img/sharingan.png" alt="Sharingan" class="sharingan-image" />
+                            </div>
+                        </div>
+                        <p class="quote">Energía roja para despertar el dojutsu.</p>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">Ron blanco</span>
+                        <span class="tag">Jarabe de Fresa</span>
+                        <span class="tag">Limón</span>
+                    </div>
+                </article>
+
+                <article class="card" style="--accent:#24d8ff" data-symbol="雷">
+                    <div>
+                        <div class="card-top">
+                            <div>
+                                <div class="meta">Raiton</div>
+                                <h3 class="drink-name">Chidori</h3>
+                                <p class="subtitle">Blue Lagoon</p>
+                            </div>
+                            <div class="drink-icon"><div class="bolt"></div></div>
+                        </div>
+                        <p class="quote">Relámpago azul directo al vaso.</p>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">Vodka</span>
+                        <span class="tag">Blue Curaçao</span>
+                        <span class="tag">Sprite</span>
+                    </div>
+                </article>
+
+                <article class="card" style="--accent:#fff3dc" data-symbol="日">
+                    <div>
+                        <div class="card-top">
+                            <div>
+                                <div class="meta">Elegancia Hyuga</div>
+                                <h3 class="drink-name">Hinata</h3>
+                                <p class="subtitle">Piña Colada</p>
+                            </div>
+                            <div class="drink-icon"><div class="byakugan-eye"></div></div>
+                        </div>
+                        <p class="quote">Chakra suave, cremoso y silenciosamente poderoso.</p>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">Piña</span>
+                        <span class="tag">Crema de Coco</span>
+                        <span class="tag">Ron blanco</span>
+                    </div>
+                </article>
+
+                <article class="card" style="--accent:#b893ff" data-symbol="須">
+                    <div>
+                        <div class="card-top">
+                            <div>
+                                <div class="meta">Chakra Místico</div>
+                                <h3 class="drink-name">Susanoo</h3>
+                            </div>
+                            <div class="drink-icon susanoo-icon">
+                                <img src="img/susanoo3.png" alt="Susanoo" class="susanoo-image" />
+                            </div>
+                        </div>
+                        <p class="quote">Armadura violeta servida en modo noche.</p>
+                    </div>
+                    <div class="tags">
+                        <span class="tag">Vodka</span>
+                        <span class="tag">Blue Curaçao</span>
+                        <span class="tag">Ginger Ale</span>
+                    </div>
+                </article>
+
+                <article class="card beer-card" style="--accent:#24d66b" data-symbol="酒">
+                    <div>
+                        <div class="card-top">
+                            <div>
+                                <div class="meta">Taberna de Konoha</div>
+                                <h3 class="drink-name">Cerveza de la Tierra del Fuego</h3>
+                            </div>
+                            <div class="drink-icon beer-icon">
+                                <div class="beer-glass">
+                                    <span class="beer-foam"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="quote">Una lager helada servida al estilo shinobi.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-main">
+                <strong>Ichiraku Bar</strong> · Técnicas preparadas para shinobis invitados. Consume responsablemente.
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
